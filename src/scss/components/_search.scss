@@ -1,0 +1,69 @@
+.search {
+    height: 6rem;
+    margin: 3.6rem auto 1.6rem;
+    position: relative;
+    background-color: $white;
+    color: $chambray;
+    border-radius: 1.5rem;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+
+    @include breakpoint("tablet") {
+        margin: 3.6rem auto 2.4rem;
+    }
+
+    &_icon {
+        height: 2rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 1.6rem;
+    }
+    &_input {
+        width: 60%;
+        border: none;
+        background: transparent;
+        font-size: 1.3rem;
+        line-height: 25px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 4.5rem;
+        &::placeholder {
+            color: $chambray;
+            font-family: 'Space Mono', monospace;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &_result {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        right: 7.5rem;
+        font-size: 1.5rem;
+        color: #F74646;
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+    }
+    &_button {
+        font-family: 'Space Mono', monospace;
+        width: 8.4rem;
+        height: 4.6rem;
+        border-radius: 1rem;
+        border: none;
+        background: $blue;
+        color: $white;
+        font-size: 1.4rem;
+        font-weight: 700;
+        cursor: pointer;
+
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 1rem;
+        &:active, &:hover {
+            background: #60ABFF;
+        }
+    }
+}

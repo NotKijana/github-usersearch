@@ -1,0 +1,70 @@
+.App.darkMode {
+    .header {
+        &_title {
+            color: $white;
+        }
+        &_theme {
+            color: $white;
+            &--icon {
+                &.darkIcon {
+                    filter: invert(91%) sepia(100%) saturate(30%) hue-rotate(252deg) brightness(106%) contrast(100%);
+                }  
+            }
+    
+            &:hover {
+                color: #90A4D4;
+                .darkIcon {
+                    filter: invert(66%) sepia(16%) saturate(699%) hue-rotate(184deg) brightness(94%) contrast(98%);
+                }
+            }
+        }
+    }
+
+    .search {
+        background-color: $darkblue;
+        box-shadow: none;
+        &_input {
+            color: $white;
+            &::placeholder {
+                color: $white;
+            }
+        }
+    }
+
+    .card {
+        background-color: $darkblue;
+        color: $white;
+        box-shadow: none;
+
+        &_header {
+    
+            &--text {
+                &-name {
+                    color: $white;
+                }
+    
+                &-joinDate {
+                    color: $white;
+                }
+            }
+        }
+    
+    
+        &_stats {
+            background-color: $navyblue;
+        }
+    
+        &_links {
+            &--text {
+                color: $white;
+            }
+                
+            a {
+                color: $white;
+            }
+        }
+    }
+    .lowLight {
+        color: rgba($white, 0.5)
+    }
+}

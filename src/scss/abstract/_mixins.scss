@@ -1,0 +1,9 @@
+@mixin breakpoint($respond) {
+    @if $respond == "mobile" {@media (max-width: 767px) {@content}};
+
+    @if $respond == "tablet" {@media (min-width: 768px) {@content}};
+
+    @if $respond == "tabletLandscape" {@media (min-width: 925px) {@content}};
+
+    @if $respond == "desktop" {@media (min-width: 1024px) {@content}};
+}

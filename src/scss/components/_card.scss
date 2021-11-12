@@ -1,0 +1,147 @@
+.card {
+    margin: 1.6rem auto;
+    padding: 3.2rem 2.5rem;
+    background-color: $white;
+    color: $grey;
+
+    border-radius: 1.5rem;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+    @include breakpoint('tablet') {
+        min-height: 48rem;
+    }
+
+    &_header {
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        margin: 1.6rem 0 3.3rem;
+
+        @include breakpoint('tablet') {
+            margin: 1.6rem 0 4.3rem;
+        }
+        @include breakpoint('desktop') {
+            margin-left: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        &--img {
+            height: 7rem;
+            width: 7rem;
+            border-radius: 50%;
+            margin-right: 2rem;
+            @include breakpoint('tablet') {
+                height: 11.7rem;
+                width: 11.7rem;
+            }
+            @include breakpoint('desktop') {
+                margin-top: 2rem;
+            }
+        }
+
+        &--text {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 90%;
+
+            @include breakpoint('desktop') {
+                margin-top: -2rem;
+            }
+            &-name {
+                color: $darkgray;
+            }
+
+            &-tag {
+                a {
+                    text-decoration: none;
+                    color: $blue;
+                }
+                &:hover {
+                    a {color: #60ABFF;}
+                }
+            }
+
+            &-joinDate {
+                color: $grey;
+
+                @include breakpoint('desktop') {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+        }
+    }
+
+    &_bio {
+        margin-bottom: 2.3rem;
+
+        @include breakpoint('desktop') {
+            margin-left: 15rem;
+        }
+    }
+
+    &_stats {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: $lightgray;
+        padding: 1.8rem 1.5rem;
+        border-radius: 1.5rem;
+        text-align: center;
+        margin-bottom: 2.4rem;
+
+        @include breakpoint('desktop') {
+            margin-left: 15rem;
+        }
+
+        &--header {
+            font-size: 1.3rem;
+            @include breakpoint('tablet') {
+                font-size: 1.1rem;
+            }
+            margin-bottom: 0.8rem;
+        }
+    }
+
+    &_links {
+        display: flex;
+        min-height: 14rem;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include breakpoint('tablet') {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        @include breakpoint('desktop') {
+            margin-left: 15rem;
+        }
+
+        &--item {
+            display: flex;
+            align-items: center;
+
+            @include breakpoint('tablet') {
+                width: 50%;
+            }
+        }
+        &--text {
+            margin-left: 1.3rem;
+            color: $chambray;
+            
+            a {
+                color: $chambray;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        img {
+            height: max-content;
+            width: max-content;
+        }
+    }
+}

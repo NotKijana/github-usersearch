@@ -1,0 +1,67 @@
+*, *::after, *::before {margin: 0; padding: 0; box-sizing: inherit;}
+
+html {font-size: 62.5%;}
+
+body {
+    background-color: $lightgray;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    &.darkMode {
+        background-color: $navyblue;
+    }
+}
+
+.App {
+    width: 90%;
+    position: absolute;
+    top: 3.1rem;
+    left: 50%;
+    transform: translate(-50%);
+
+    @include breakpoint("tablet") {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 480px;
+    }
+    @include breakpoint("desktop") {
+        max-width: 730px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    &_title {
+        font-size: 2.6rem;
+        color: #222731;
+    }
+    &_theme {
+        cursor: pointer;
+        display: flex;
+        color: $chambray;
+        text-transform: uppercase;
+        justify-content: space-around;
+        align-items: center;
+        // &--name {}
+
+        &--icon {
+            margin-left: 1.6rem;
+            height: 2rem;
+            width: 2rem;
+            &.light {
+                filter: invert(38%) sepia(89%) saturate(270%) hue-rotate(176deg) brightness(87%) contrast(90%);
+            }
+        }
+
+        &:hover {
+            color: #222731;
+        }
+        &:hover > &--icon {
+            &.light {
+                filter: invert(11%) sepia(8%) saturate(2060%) hue-rotate(181deg) brightness(90%) contrast(86%);
+            }
+        }
+    }
+}
