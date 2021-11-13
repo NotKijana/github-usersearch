@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4b82397.chunk.css",
+    "main.js": "/static/js/main.c2ac145b.chunk.js",
+    "main.js.map": "/static/js/main.c2ac145b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.237b402f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.237b402f.js.map",
+    "static/js/2.550588cc.chunk.js": "/static/js/2.550588cc.chunk.js",
+    "static/js/2.550588cc.chunk.js.map": "/static/js/2.550588cc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c4b82397.chunk.css.map": "/static/css/main.c4b82397.chunk.css.map",
+    "static/js/2.550588cc.chunk.js.LICENSE.txt": "/static/js/2.550588cc.chunk.js.LICENSE.txt",
+    "static/media/icon-company.6f78ffb3.svg": "/static/media/icon-company.6f78ffb3.svg",
+    "static/media/icon-location.f11c5487.svg": "/static/media/icon-location.f11c5487.svg",
+    "static/media/icon-moon.8143284f.svg": "/static/media/icon-moon.8143284f.svg",
+    "static/media/icon-search.0cc0c984.svg": "/static/media/icon-search.0cc0c984.svg",
+    "static/media/icon-sun.15ffa1fa.svg": "/static/media/icon-sun.15ffa1fa.svg",
+    "static/media/icon-twitter.f6a2a695.svg": "/static/media/icon-twitter.f6a2a695.svg",
+    "static/media/icon-website.b7923f6c.svg": "/static/media/icon-website.b7923f6c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.237b402f.js",
+    "static/js/2.550588cc.chunk.js",
+    "static/css/main.c4b82397.chunk.css",
+    "static/js/main.c2ac145b.chunk.js"
+  ]
+}
