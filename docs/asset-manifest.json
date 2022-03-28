@@ -1,27 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4b82397.chunk.css",
-    "main.js": "/static/js/main.c2ac145b.chunk.js",
-    "main.js.map": "/static/js/main.c2ac145b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.237b402f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.237b402f.js.map",
-    "static/js/2.550588cc.chunk.js": "/static/js/2.550588cc.chunk.js",
-    "static/js/2.550588cc.chunk.js.map": "/static/js/2.550588cc.chunk.js.map",
+    "main.css": "/static/css/main.fa542d21.css",
+    "main.js": "/static/js/main.7fb980c8.js",
+    "static/media/icon-sun.svg": "/static/media/icon-sun.15ffa1fa4e793921ffdd695238b1f466.svg",
+    "static/media/icon-website.svg": "/static/media/icon-website.b7923f6c1dae9717c079c60d8a5c82e5.svg",
+    "static/media/icon-company.svg": "/static/media/icon-company.6f78ffb334b191c8ed54d0c2a6f7cc25.svg",
+    "static/media/icon-twitter.svg": "/static/media/icon-twitter.f6a2a695fbb260b28a9fd67dd4179ea5.svg",
+    "static/media/icon-moon.svg": "/static/media/icon-moon.8143284f93ee6818dc80ef3968fd2ee9.svg",
+    "static/media/icon-search.svg": "/static/media/icon-search.0cc0c98424cc75d5e1dfbb9e3abb6785.svg",
+    "static/media/icon-location.svg": "/static/media/icon-location.f11c5487a9922cbad40a27e8cc1cfaee.svg",
     "index.html": "/index.html",
-    "static/css/main.c4b82397.chunk.css.map": "/static/css/main.c4b82397.chunk.css.map",
-    "static/js/2.550588cc.chunk.js.LICENSE.txt": "/static/js/2.550588cc.chunk.js.LICENSE.txt",
-    "static/media/icon-company.6f78ffb3.svg": "/static/media/icon-company.6f78ffb3.svg",
-    "static/media/icon-location.f11c5487.svg": "/static/media/icon-location.f11c5487.svg",
-    "static/media/icon-moon.8143284f.svg": "/static/media/icon-moon.8143284f.svg",
-    "static/media/icon-search.0cc0c984.svg": "/static/media/icon-search.0cc0c984.svg",
-    "static/media/icon-sun.15ffa1fa.svg": "/static/media/icon-sun.15ffa1fa.svg",
-    "static/media/icon-twitter.f6a2a695.svg": "/static/media/icon-twitter.f6a2a695.svg",
-    "static/media/icon-website.b7923f6c.svg": "/static/media/icon-website.b7923f6c.svg"
+    "main.fa542d21.css.map": "/static/css/main.fa542d21.css.map",
+    "main.7fb980c8.js.map": "/static/js/main.7fb980c8.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.237b402f.js",
-    "static/js/2.550588cc.chunk.js",
-    "static/css/main.c4b82397.chunk.css",
-    "static/js/main.c2ac145b.chunk.js"
+    "static/css/main.fa542d21.css",
+    "static/js/main.7fb980c8.js"
   ]
 }
